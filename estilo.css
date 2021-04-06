@@ -1,0 +1,77 @@
+
+* {
+    text-align: center;
+}
+
+body {
+    font-family: 'Arial', monospace;
+    min-height: 400px;
+    background-image: url('imagens/imagem2.jpg');
+    background-color: #111;
+    background-size: 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+h3{
+    color: white;
+    font: normal 15pt 'Arial';
+}
+
+.add-jogador{
+    margin: 0 0 15px;
+}
+
+.add-jogador input{
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px;
+}
+
+.add-jogador button{
+    border: 0;
+    color: #fff;
+    background: #bf0603;
+    font-weight: bold;
+    padding: 15px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: white;
+}
+
+th, tr, td {
+    border: solid 1px white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+
+td button{
+    border: 0;
+    color: #fff;
+    background: #3a0ca3;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: .3s;
+}

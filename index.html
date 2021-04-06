@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Classificação</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Tabela de Classificação de Jogos</h1>
+    <div class="add-jogador">
+        <h3>Insira um novo jogador</h3>
+        <input type="text" name="novoJogador" id="novoJogador" placeholder="Insira o nome do jogador">
+        <button onclick="addJogador()">Adicionar Jogador</button>
+        <button onclick="reiniciar()">Reiniciar Jogo</button>
+    </div>
+    <table style="width: 100%;">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Vitória</th>
+                <th>Empates</th>
+                <th>Derrotas</th>
+                <th>Pontos</th>
+                <th colspan="3">Ações</th>
+
+            </tr>
+        </thead>
+        <tbody id="tabelaJogadores">
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
